@@ -1,0 +1,29 @@
+FlightDate,AirlineCode,AirlineName,FlightNumber,OriginAirport,OriginCity,OriginState,DestAirport,DestCity,DestState,ScheduledDepTime,ActualDepTime,DepDelayMinutes,ScheduledArrTime,ActualArrTime,ArrDelayMinutes,Cancelled,CancellationReason,DistanceKM
+2024-01-01,AA,American Airlines,1001,JFK,New York,NY,LAX,Los Angeles,CA,0800,0815,15,1100,1135,35,0,,3974
+2024-01-01,DL,Delta Airlines,2034,ATL,Atlanta,GA,ORD,Chicago,IL,0930,0925,-5,1100,1050,-10,0,,975
+2024-01-01,UA,United Airlines,778,SFO,San Francisco,CA,SEA,Seattle,WA,0700,0710,10,0830,0845,15,0,,1090
+2024-01-02,AA,American Airlines,1002,LAX,Los Angeles,CA,JFK,New York,NY,1230,1300,30,2030,2100,30,0,,3974
+2024-01-02,DL,Delta Airlines,2040,ORD,Chicago,IL,ATL,Atlanta,GA,0600,0555,-5,0830,0820,-10,0,,975
+2024-01-02,UA,United Airlines,780,SEA,Seattle,WA,SFO,San Francisco,CA,1400,1430,30,1600,1640,40,0,,1090
+2024-01-03,AA,American Airlines,1005,JFK,New York,NY,MIA,Miami,FL,0900,0935,35,1200,1245,45,0,,1757
+2024-01-03,DL,Delta Airlines,2050,ATL,Atlanta,GA,MCO,Orlando,FL,1100,1105,5,1230,1235,5,0,,651
+2024-01-03,UA,United Airlines,785,SFO,San Francisco,CA,DEN,Denver,CO,0800,,,
+1100,,,
+1,Weather,1550
+2024-01-04,AA,American Airlines,1010,MIA,Miami,FL,JFK,New York,NY,1300,1310,10,1600,1615,15,0,,1757
+2024-01-04,DL,Delta Airlines,2060,MCO,Orlando,FL,ATL,Atlanta,GA,0700,0715,15,0830,0840,10,0,,651
+2024-01-04,UA,United Airlines,790,DEN,Denver,CO,SFO,San Francisco,CA,1700,1650,-10,1900,1850,-10,0,,1550
+2024-01-05,AA,American Airlines,1020,LAX,Los Angeles,CA,SEA,Seattle,WA,0600,0630,30,0830,0900,30,0,,1545
+2024-01-05,DL,Delta Airlines,2070,SEA,Seattle,WA,LAX,Los Angeles,CA,1000,0950,-10,1230,1215,-15,0,,1545
+2024-01-05,UA,United Airlines,795,ORD,Chicago,IL,EWR,Newark,NJ,0900,0930,30,1200,1245,45,0,,1140
+2024-01-06,AA,American Airlines,1030,JFK,New York,NY,ORD,Chicago,IL,0700,0710,10,0900,0915,15,0,,1180
+2024-01-06,DL,Delta Airlines,2080,ATL,Atlanta,GA,JFK,New York,NY,1500,1530,30,1730,1805,35,0,,1220
+2024-01-06,UA,United Airlines,800,EWR,Newark,NJ,ORD,Chicago,IL,1800,1825,25,2000,2030,30,0,,1140
+2024-01-07,AA,American Airlines,1040,ORD,Chicago,IL,DFW,Dallas,TX,1100,1135,35,1330,1415,45,0,,1290
+2024-01-07,DL,Delta Airlines,2090,DFW,Dallas,TX,ATL,Atlanta,GA,1400,,,
+1700,,,
+1,Mechanical,1180
+2024-01-07,UA,United Airlines,810,SFO,San Francisco,CA,LAX,Los Angeles,CA,1900,1905,5,2030,2030,0,0,,540
+2024-01-08,AA,American Airlines,1050,DFW,Dallas,TX,LAX,Los Angeles,CA,0600,0555,-5,0800,0750,-10,0,,1990
+2024-01-08,DL,Delta Airlines,2100,LAX,Los Angeles,CA,ATL,Atlanta,GA,0900,0930,30,1600,1645,45,0,,3110
+2024-01-08,UA,United Airlines,820,LAX,Los Angeles,CA,DEN,Denver,CO,1200,1240,40,1500,1550,50,0,,1380
