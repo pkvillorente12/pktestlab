@@ -72,19 +72,27 @@ Creating the ff. Azure Resources then assign RBAC roles
     - raw
     - enriched
 - Azure Data Factory (adfpktestlab)
-  - RBAC role for user: **Data Factory Contributor **
+  - RBAC role for user: **Data Factory Contributor**
 - Azure Key Vault (akvpktestlab)
   - Name:Kvdatalakepktestlab  
 	- Added myself as Key Vault Secret Officer as I encountered an error wherein I cannot add a secret even though I am the owner of the KV.  
 	- The reason is because AKV uses RBAC authorization which require explicit RBAC roles.
 	- Stored Storage Account Key from Azure Data Lake Gen2
-  - RBAC Role for user, ADF,  Key Vault Secrets User
+  - RBAC Role for user, ADF,   **Key Vault Secrets User**
 - Azure Synapse Workspace (pktestserverless)
 - Azure Databricks (adbpktestlab)
 
 
-### 
+### Azure Data Factory Raw Ingestion Pipeline  
+The plan for this activity is it can overwrite the file whenever there are new data coming in for these months.  
 
+Document created:  
+https://github.com/pkvillorente12/pktestlab/blob/main/Azure%20Data%20Factory%20Activities.docx
+
+Destination:   
+├──raw/factflights/year=2024/month=01/FactFlights_raw_202401.csv  
+├──raw/factflights/year=2024/month=02/FactFlights_raw_202402.csv  
+├──raw/factflights/year=2024/month=03/FactFlights_raw_202403.csv  
 
 
 
